@@ -1,0 +1,45 @@
+# =====================================
+# 🧰 Jenkins Log Upload Script - .gitignore
+# =====================================
+
+# Ignore environment and credential files
+.env
+config/*.env
+*.credentials
+*.key
+*.pem
+
+# Ignore AWS CLI config and cache
+.aws/
+.aws/credentials
+.aws/config
+
+# Ignore log files
+*.log
+logs/
+*.out
+
+# Ignore system and temporary files
+*.swp
+*.tmp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# Ignore compiled and backup files
+*.tar
+*.gz
+*.zip
+*.bak
+*.old
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore macOS and Linux system files
+.DS_Store
+.Trash-*
+.cache/
+
